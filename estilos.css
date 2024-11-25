@@ -1,0 +1,35 @@
+/* Reset de márgenes y padding para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general para el body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    color: #333; /* Texto oscuro */
+    padding: 20px; /* Espaciado alrededor del contenido */
+    text-align: center; /* Centrar el contenido */
+}
+
+/* Estilo para el título h1 */
+h1 {
+    font-size: 36px;
+    color: #2c3e50; /* Un color gris oscuro */
+    margin-bottom: 20px; /* Espaciado debajo del título */
+}
+
+/* Estilo para el párrafo */
+p {
+    font-size: 18px;
+    color: #555; /* Un gris medio */
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+    max-width: 600px; /* Limita el ancho del párrafo */
+    margin: 0 auto; /* Centra el párrafo */
+    padding: 10px; /* Espaciado interno */
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor del párrafo */
+}
